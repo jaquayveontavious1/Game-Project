@@ -1,22 +1,21 @@
 /*Universal Selectors*/
-* {
 
-}
 /*tag selectors*/
 
 body {
-    background: linear-gradient(45deg,#6ac1c5,#066237);
+    background:  rgba(24, 205, 237, 0.986);
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 h1 {
     font-size: 3.5rem;
-    color:black;
+    color:white;
 }
 /*class selectors*/
 .choices {
@@ -40,7 +39,14 @@ h1 {
     font-size: 2.5rem;
 
 }
-#result {
+#resultDisplay {
     font-size: 5.0rem;
     margin: 30px 0;
+}
+.greenText {
+    color: green;
+
+}
+.redText {
+    color: red;
 }
